@@ -169,3 +169,9 @@ footer a {
     color: var(--white);
     
 }
+.heroFood {
+    margin: 50px;
+}
+.heroFood p {
+    margin: 50px 120px;
+}
