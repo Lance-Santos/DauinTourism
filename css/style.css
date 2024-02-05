@@ -138,3 +138,34 @@ footer {
 footer a {
     color:white;
 }
+.cardTour {
+    display: flex;
+    justify-content: center;
+
+    margin:40px;
+}
+.cardTour img {
+    width: 80vh;
+    height: 100%;
+    object-fit: cover;
+}
+.cardTour p {
+    margin: 24px;
+    text-overflow: ellipsis;
+    word-wrap:break-word;
+}
+.imgTour {
+    width: 80vh;
+    height: 60vh;
+    background-color: var(--secondary);
+    padding: 5px;
+
+}
+.textTour {
+    width: 40vh;
+    background-color: var(--secondary);
+    padding: 5px;
+    height: 60vh;
+    color: var(--white);
+    
+}
