@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --black: #000000;
+    --primary:#0B60B0;
+    --secondary:#40A2D8;
+    --white: #f4f4f4;
+}
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+}
+body {
+    background-color: var(--);
+}
+header {
+    background-color: var(--secondary);
+    
+}
+header ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+header ul li {
+    margin: 20px;
+    transform: scale(1);
+    transition: 0.3s;
+}
+header a {
+    text-decoration: none;
+    color:var(--white);
+    
+}
+header li:hover {
+    transform: scale(1.05);
+    letter-spacing: 2px;
+}
+.heroSection .textSection{
+    position: absolute;
+    text-shadow: var(--black) 1px 1px 4px;
+    color: var(--white);
+    font-size: 49px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 40px;
+}
+.heroSection img {
+    width: 100%;
+    height: 50vh;
+}
+.card {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    background-color: var(--secondary);
+    position: relative;
+    top: -90px;
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.472);
+
+}
+.card h2 {
+    margin: 0px 180px;
+    line-height: 1.3;
+}
+.miniCard {
+    background-color: var(--secondary);
+    width: 300px;
+    height:50vh;
+    padding: 50px;
+    text-align: center;
+    margin: 10px;
+    transition: 0.3s;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.472);
+}
+.miniCard h1 {
+    font-size: 24px;
+    font-weight:bolder;
+    color: var(--white);
+    
+}
+.miniCard img {
+    filter: invert();
+}
+hr {
+    color: var(--primary);
+}
+.cardSection{
+    display: flex;
+    justify-content: center;
+    margin: 0px 240px;
+}
+.miniCard:hover {
+    transform: scale(1.1);
+}
+.lastSection {
+    margin-top: 50px;
+    width: 100%;
+    height: 30vh;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    padding-top: 120px;
+}
+.lastSection h1{
+    color:white;
+    font-size: 34px;
+}
+button {
+    margin: 20px 340px;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    transition:0.3s;
+}
+button:hover {
+    transform:scale(1.1);
+}
+button a {
+    text-decoration: none;
+    font-size: 24px;
+    color:var(--black);
+}
+footer {
+    background-color: var(--black);
+    color: white;
+    padding: 20px 20px;
+}
+footer a {
+    color:white;
+}
