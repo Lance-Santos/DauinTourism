@@ -171,7 +171,17 @@ footer a {
 }
 .heroFood {
     margin: 50px;
+    margin-bottom: 150px;
 }
 .heroFood p {
     margin: 50px 120px;
+}
+.footerMain {
+    background-color: var(--black);
+    color: white;
+    padding: 20px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
 }
